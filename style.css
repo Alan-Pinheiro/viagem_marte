@@ -1,3 +1,32 @@
 * {
-    background-color: rgb(216, 216, 216);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+/* LINKS */
+
+/* define cor do link */
+.links_acesso a {
+    text-decoration: none;
+    color: white;
+}
+
+/* define cor do link visitado */
+.links_acesso a:visited {
+    color: rgba(219,100,61,255)
+}
+
+/* define cor do link mouse em cima */
+.links_acesso a:hover {
+    color:aquamarine
+}
+
+/* define cor do link enquanto pressiona*/
+.links_acesso a:active {
+    color: blue;
 }
